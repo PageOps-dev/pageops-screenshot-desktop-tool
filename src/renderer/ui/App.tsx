@@ -420,12 +420,13 @@ export function App() {
 
           setHistory((h: HistoryItem[]) => h.map((x: HistoryItem) => (x.id === item.id ? { ...x, status: st, imageUrl: img ?? x.imageUrl } : x)));
 
-          if (st === 'succeeded' || st === 'failed') {
+          if (st === 'succeeded' || st === 'completed' || st === 'failed') {
             break;
           }
 
           if (pollIdx === 29) {
             setHistory((h: HistoryItem[]) => h.map((x: HistoryItem) => (x.id === item.id ? { ...x, status: 'failed', error: 'Polling timeout' } : x)));
+            break;
           }
         }
       }

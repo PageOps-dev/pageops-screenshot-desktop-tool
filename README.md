@@ -37,6 +37,27 @@ Powered by the [PageOps Screenshot API](https://app.page-ops.com).
 
 ---
 
+## Screenshots
+
+### Main Interface
+![Main Interface](docimages/mainpage.JPG)
+
+### Generated Screenshot
+![Generated Screenshot](docimages/generated%20screenshot.JPG)
+
+### Social Media Posters
+
+**Instagram Post (1080×1350)**
+![Instagram Post](docimages/instagram%201080X1350.png)
+
+**Instagram Story (1080×1920)**
+![Instagram Story](docimages/instagram%201080x1920.png)
+
+**Twitter/X Post**
+![Twitter/X Post](docimages/poster%20twitter%20x.png)
+
+---
+
 ## Features
 
 - **Single & Batch capture** — Capture one URL or up to 20 URLs at once
